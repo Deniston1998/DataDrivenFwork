@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login suit]">
+  <test thread-count="5" name="login(failed)">
+    <classes>
+      <class name="Ddf.LogIn">
+        <methods>
+          <include name="logindf" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- Ddf.LogIn -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [login suit] -->

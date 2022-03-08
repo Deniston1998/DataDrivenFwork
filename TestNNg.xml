@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="login suit">
+    <test name="login">
+        <classes>
+            <class name="Ddf.LogIn">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+.................................................using parameter in dff.........
+<test name="Bc">
+<parameter name="username" value="Admin"></parameter>
+<parameter name="password" value="admin123"></parameter>
+<classes>
+    <class name="loginTestCases.Bothcorrect"/>
+</classes>
+</test>
+<test name="Bi">
+<parameter name="username" value="awmin"></parameter>
+<parameter name="password" value="qw22"></parameter>
+<classes>
+    <class name="loginTestCases.Bothincorrect"> </class>
+
+</classes>
+
+</test>
+<test name="cp">
+<parameter name="username" value="afmin"></parameter>
+<parameter name="password" value="admin123"></parameter>
+<classes>
+    <class name="loginTestCases.CorrectPAssword"/>
+
+</classes>
+
+</test>
+<test name="cu">
+<parameter name="username" value="Admin"></parameter>
+<parameter name="password" value="armin"></parameter>
+<classes>
+    <class name="loginTestCases.CorrectUserName"/>
+
+</classes>
+
+</test>-->
